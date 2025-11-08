@@ -61,6 +61,22 @@ const mdlorien = localFont({
 export const metadata: Metadata = {
   title: "Davi Rezende",
   description: "Criado por Davi Rezende (no vibecoded)",
+  // LINK PREVIEW
+  openGraph: {
+    title: "Davi Rezende",
+    description: "Criado por Davi Rezende (no vibecoded)",
+    url: "https://davirezendemota.com",
+    siteName: "Davi Rezende",
+    images: [
+      {
+        url: "https://davirezendemota.com/og-image.png", // URL total da imagem
+        width: 500,
+        height: 263,
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  }
 };
 
 export default function RootLayout({
