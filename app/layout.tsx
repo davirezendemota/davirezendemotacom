@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-export const mdlorien = localFont({
+const mdlorien = localFont({
   src: [
     {
       path: '../public/fonts/mdlorien/MDLorien-Black.otf',
