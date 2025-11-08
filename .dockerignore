@@ -25,3 +25,4 @@ __tests__
 *.tgz
 docker-compose.yml
 Dockerfile
+.next
