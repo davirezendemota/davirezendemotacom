@@ -1,0 +1,16 @@
+services:
+  frontend:
+    platform: linux/amd64
+    container_name: davirezendemotacom_frontend_local
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: deps
+    ports:
+      - "10000-11000:3000"
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - .:/app
+      - /app/.next
+    command: sh -c "npm install && npx next dev -H 0.0.0.0"
