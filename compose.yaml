@@ -1,16 +1,57 @@
 services:
+  postgres:
+    image: postgres:18-alpine
+    container_name: davirezendemotacom_postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: davirezende
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: davirezendemotacom_backend
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/davirezende
+      ENVIRONMENT: development
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./backend/storage:/app/storage
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: sh -c "alembic upgrade head && uvicorn main:app --host 0.0.0.0 --reload"
+
   frontend:
     platform: linux/amd64
     container_name: davirezendemotacom_frontend_local
     build:
-      context: .
+      context: ./frontend
       dockerfile: Dockerfile
       target: deps
     ports:
       - "10000-11000:3000"
     environment:
       - NODE_ENV=development
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
     volumes:
-      - .:/app
+      - ./frontend:/app
       - /app/.next
+    depends_on:
+      - backend
     command: sh -c "npm install && npx next dev -H 0.0.0.0"
+
+volumes:
+  postgres_data: {}
