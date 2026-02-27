@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[requires]
+python_version = "3.12"
+
+[packages]
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+sqlmodel = "*"
+alembic = "*"
+pydantic-settings = "*"
+psycopg2-binary = "*"
+python-frontmatter = "*"
+
+[scripts]
+migrate-create = "alembic revision --autogenerate -m"
+migrate-apply = "alembic upgrade head"
+run = "uvicorn main:app --reload --host 0.0.0.0"
