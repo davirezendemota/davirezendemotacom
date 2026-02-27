@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About me",
+    "articles": "Articles",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Davi Rezende",
+    "subtitle": "Full Stack Developer & Founder at RM Consult",
+    "bio": "Product Manager and Software Engineer with over 4 years of experience. I founded RM Consult to provide high-quality software consulting for companies seeking to optimize processes and achieve operational excellence. São Paulo, Brazil.",
+    "downloadCv": "Download resume",
+    "learnMore": "Learn more"
+  },
+  "about": {
+    "title": "Davi Rezende",
+    "subtitle": "Full Stack Developer & Founder at RM Consult",
+    "location": "São Paulo, Brazil · 4+ years of experience",
+    "downloadCv": "Download resume (PDF)",
+    "sectionAbout": "About",
+    "aboutText": "Product Manager and Software Engineer with experience in software consulting, technical leadership and product delivery. I founded RM Consult with the vision of providing high-quality consulting solutions for companies seeking to optimize processes and achieve operational excellence. I work at specialist level in engineering and technical roles, with experience in IT management and tech lead.",
+    "sectionTrajectory": "Trajectory",
+    "trajectory": {
+      "rmconsult": "Mid-level Software Developer & Founder (Jun 2023 – present)",
+      "ferreira": "IT Manager, Tech Lead, Full Stack, Frontend and internship (2022 – 2025)",
+      "hearts": "Software Developer (2021 – 2023)",
+      "cefet": "BSc Computer Science (2021 – 2024)"
+    },
+    "sectionLanguages": "Languages",
+    "languages": {
+      "pt": "Portuguese — native",
+      "en": "English — professional",
+      "de": "German — basic"
+    },
+    "sectionCerts": "Certifications",
+    "certs": {
+      "scrum": "Agile projects with SCRUM — Digital Innovation One (2022)",
+      "python": "Basic Python — Solyd (2020)"
+    },
+    "backHome": "Back to home",
+    "contactMe": "Contact me"
+  },
+  "contact": {
+    "title": "Contact me",
+    "description": "Let's talk? Get in touch via LinkedIn or download my resume.",
+    "linkedin": "LinkedIn",
+    "cvPdf": "Resume (PDF)"
+  },
+  "footer": {
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "locale": {
+    "ptBR": "Português",
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Start",
+    "about": "Über mich",
+    "articles": "Artikel",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Davi Rezende",
+    "subtitle": "Full Stack Developer & Founder at RM Consult",
+    "bio": "Product Manager und Software Engineer mit über 4 Jahren Erfahrung. Ich habe RM Consult gegründet, um hochwertige Softwareberatung für Unternehmen anzubieten, die Prozesse optimieren und operative Exzellenz erreichen wollen. São Paulo, Brasilien.",
+    "downloadCv": "Lebenslauf herunterladen",
+    "learnMore": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Davi Rezende",
+    "subtitle": "Full Stack Developer & Founder at RM Consult",
+    "location": "São Paulo, Brasilien · 4+ Jahre Erfahrung",
+    "downloadCv": "Lebenslauf (PDF) herunterladen",
+    "sectionAbout": "Über",
+    "aboutText": "Product Manager und Software Engineer mit Erfahrung in Softwareberatung, technischer Führung und Produktauslieferung. Ich habe RM Consult mit der Vision gegründet, hochwertige Beratungslösungen für Unternehmen anzubieten, die Prozesse optimieren und operative Exzellenz erreichen wollen. Ich arbeite auf Spezialistenniveau in Technik und mit Erfahrung in IT-Management und Tech Lead.",
+    "sectionTrajectory": "Werdegang",
+    "trajectory": {
+      "rmconsult": "Mid-level Software Developer & Founder (Jun 2023 – heute)",
+      "ferreira": "IT Manager, Tech Lead, Full Stack, Frontend und Praktikum (2022 – 2025)",
+      "hearts": "Software Developer (2021 – 2023)",
+      "cefet": "Abschluss Informatik (2021 – 2024)"
+    },
+    "sectionLanguages": "Sprachen",
+    "languages": {
+      "pt": "Portugiesisch — Muttersprache",
+      "en": "Englisch — professionell",
+      "de": "Deutsch — Grundkenntnisse"
+    },
+    "sectionCerts": "Zertifizierungen",
+    "certs": {
+      "scrum": "Agile Projekte mit SCRUM — Digital Innovation One (2022)",
+      "python": "Python Grundlagen — Solyd (2020)"
+    },
+    "backHome": "Zurück zur Startseite",
+    "contactMe": "Kontakt"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "description": "Möchten Sie sprechen? Kontaktieren Sie mich über LinkedIn oder laden Sie meinen Lebenslauf herunter.",
+    "linkedin": "LinkedIn",
+    "cvPdf": "Lebenslauf (PDF)"
+  },
+  "footer": {
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "locale": {
+    "ptBR": "Português",
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch"
+  }
+}

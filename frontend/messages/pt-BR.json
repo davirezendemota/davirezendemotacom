@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Quem sou eu",
+    "articles": "Artigos",
+    "contact": "Fale comigo"
+  },
+  "home": {
+    "title": "Davi Rezende",
+    "subtitle": "Full Stack Developer & Founder at RM Consult",
+    "bio": "Product Manager e Software Engineer com mais de 4 anos de experiência. Fundei a RM Consult com o objetivo de oferecer consultoria de software de alta qualidade para empresas que buscam otimizar processos e alcançar excelência operacional. São Paulo, Brasil.",
+    "downloadCv": "Baixar currículo",
+    "learnMore": "Saiba mais"
+  },
+  "about": {
+    "title": "Davi Rezende",
+    "subtitle": "Full Stack Developer & Founder at RM Consult",
+    "location": "São Paulo, Brasil · 4+ anos de experiência",
+    "downloadCv": "Baixar currículo (PDF)",
+    "sectionAbout": "Sobre",
+    "aboutText": "Product Manager e Software Engineer com experiência em consultoria de software, liderança técnica e entrega de produtos. Fundei a RM Consult com a visão de oferecer soluções de consultoria de alta qualidade para empresas que buscam otimizar processos e alcançar excelência operacional. Atuo em engenharia e técnico em nível especialista, com passagem por gestão de TI e tech lead.",
+    "sectionTrajectory": "Trajetória",
+    "trajectory": {
+      "rmconsult": "Mid-level Software Developer & Founder (Jun 2023 – presente)",
+      "ferreira": "IT Manager, Tech Lead, Full Stack, Frontend e estágio (2022 – 2025)",
+      "hearts": "Software Developer (2021 – 2023)",
+      "cefet": "Graduação em Ciência da Computação (2021 – 2024)"
+    },
+    "sectionLanguages": "Idiomas",
+    "languages": {
+      "pt": "Português — nativo",
+      "en": "Inglês — profissional",
+      "de": "Alemão — básico"
+    },
+    "sectionCerts": "Certificações",
+    "certs": {
+      "scrum": "Projetos ágeis com SCRUM — Digital Innovation One (2022)",
+      "python": "Python Básico — Solyd (2020)"
+    },
+    "backHome": "Voltar ao início",
+    "contactMe": "Fale comigo"
+  },
+  "contact": {
+    "title": "Fale comigo",
+    "description": "Vamos conversar? Entre em contato pelo LinkedIn ou baixe meu currículo.",
+    "linkedin": "LinkedIn",
+    "cvPdf": "Currículo (PDF)"
+  },
+  "footer": {
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "locale": {
+    "ptBR": "Português",
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch"
+  }
+}
