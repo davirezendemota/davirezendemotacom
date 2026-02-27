@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "About me",
+    "projects": "Projects",
     "contact": "Contact"
   },
   "home": {
@@ -38,6 +39,23 @@
     },
     "backHome": "Back to home",
     "contactMe": "Contact me"
+  },
+  "projetos": {
+    "title": "Projects",
+    "headingRecent": "RECENT",
+    "headingProjects": "PROJECTS",
+    "titles": {
+      "rm-dashboard": "RM Dashboard",
+      "portfolio": "Portfolio",
+      "api-gateway": "API Gateway",
+      "mobile-app": "Mobile app"
+    },
+    "descriptions": {
+      "rm-dashboard": "SaaS Framer Template",
+      "portfolio": "Free Framer Template",
+      "api-gateway": "Free Framer Template",
+      "mobile-app": "Free Framer Template"
+    }
   },
   "contact": {
     "title": "Contact me",

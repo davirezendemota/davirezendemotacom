@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "about": "Quem sou eu",
+    "projects": "Projetos",
     "contact": "Fale comigo"
   },
   "home": {
@@ -38,6 +39,23 @@
     },
     "backHome": "Voltar ao início",
     "contactMe": "Fale comigo"
+  },
+  "projetos": {
+    "title": "Projetos",
+    "headingRecent": "RECENTES",
+    "headingProjects": "PROJETOS",
+    "titles": {
+      "rm-dashboard": "RM Dashboard",
+      "portfolio": "Portfolio",
+      "api-gateway": "API Gateway",
+      "mobile-app": "App mobile"
+    },
+    "descriptions": {
+      "rm-dashboard": "Template SaaS",
+      "portfolio": "Template gratuito",
+      "api-gateway": "Template gratuito",
+      "mobile-app": "Template gratuito"
+    }
   },
   "contact": {
     "title": "Fale comigo",

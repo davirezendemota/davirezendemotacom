@@ -2,6 +2,7 @@
   "nav": {
     "home": "Inicio",
     "about": "Quién soy",
+    "projects": "Proyectos",
     "contact": "Contacto"
   },
   "home": {
@@ -38,6 +39,23 @@
     },
     "backHome": "Volver al inicio",
     "contactMe": "Contacto"
+  },
+  "projetos": {
+    "title": "Proyectos",
+    "headingRecent": "RECIENTES",
+    "headingProjects": "PROYECTOS",
+    "titles": {
+      "rm-dashboard": "RM Dashboard",
+      "portfolio": "Portfolio",
+      "api-gateway": "API Gateway",
+      "mobile-app": "App móvil"
+    },
+    "descriptions": {
+      "rm-dashboard": "Plantilla SaaS",
+      "portfolio": "Plantilla gratuita",
+      "api-gateway": "Plantilla gratuita",
+      "mobile-app": "Plantilla gratuita"
+    }
   },
   "contact": {
     "title": "Contacto",
